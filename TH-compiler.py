@@ -131,8 +131,8 @@ for i, file in enumerate(svg_files):
         break
     print('\nfile ends with D.svg: ' + str(file.endswith('D.svg')) + '\n')
     if file.endswith('D.svg'):
-        print('\n')
-        range_obj.InsertAfter(f"\n")
+        #print('\n')
+        #range_obj.InsertAfter(f"\n")
         # insert a section break after the displacement SVG image
         section = doc.Content.Sections.Add()
         #section.Range.InsertBreak(7)
